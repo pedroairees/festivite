@@ -1,0 +1,40 @@
+#main-container {
+    display: grid;
+    grid-template-columns: 33.87% 66.13%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside {
+    h1 {
+        font: 400 2.5rem var(--font-leckerli-one);
+        color: var(--pink);
+        text-transform: capitalize;
+    }
+
+    .bg-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 2.5rem);
+        height: calc(100% - 2.5rem);
+        object-fit: cover;
+        z-index: 0;
+        border-radius: .75rem;
+    }
+
+    .title-aside {
+        position: relative;
+        z-index: 1;
+    }
+
+    position: relative;
+    max-width: 500px;
+    height: 100vh;
+    width: 100%;
+    margin: 1.25rem;
+}
+
+main {
+    overflow: auto;
+}

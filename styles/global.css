@@ -1,0 +1,13 @@
+:root {
+    /* fonts */
+    --font-leckerli-one: "Leckerli One", cursive;
+    --font-baloo: "Baloo 2", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+
+    /* colors */
+    --background-default: #131516;
+    --pink: #FF598B;
+
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+}

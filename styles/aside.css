@@ -1,0 +1,16 @@
+.title-aside {
+    margin: 2rem;
+
+    & img {
+        display: block;
+        width: 2.8rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    & p {
+        font: 300 1rem var(--font-open-sans);
+        color: var(--text-heading);
+        margin-top: .25rem;
+    }
+}
