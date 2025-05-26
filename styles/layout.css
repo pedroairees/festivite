@@ -1,6 +1,6 @@
 #main-container {
     display: grid;
-    grid-template-columns: 33.87% 66.13%;
+    grid-template-columns: 25% 75%;
     height: 100vh;
     overflow: hidden;
 }
@@ -37,4 +37,13 @@ aside {
 
 main {
     overflow: auto;
+    background-color: var(--shape-body);
+    margin: 1.25rem;
+    height: calc(100vh - 2.5rem);
+    border-radius: .75rem;
+    padding: 5rem 8.125rem;
+
+    & h2 {
+        font: 700 1.75rem var(--font-baloo);
+    }
 }

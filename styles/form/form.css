@@ -1,0 +1,34 @@
+fieldset {
+    border: none;
+}
+
+fieldset .legend-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: .75rem;
+
+    & legend {
+        font: 700 1.125rem/1.25rem var(--font-baloo);
+    }
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin-top: 1.625rem;
+}
+
+input {
+    background-color: var(--input-base);
+    border: 1px solid var(--input-stroke);
+    border-radius: .5rem;
+    font: 400 1rem var(--font-open-sans);
+    padding: .8125rem 1rem;
+    color: #fff;
+}
+
+label {
+    color: var(--text-body);
+}
