@@ -1,0 +1,41 @@
+.radio-group {
+    padding: .25rem;
+    background-color: var(--input-base);
+    border: 1px solid var(--input-stroke);
+    border-radius: .5rem;
+}
+
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    transition: .5s;
+    padding-block: .6563rem;
+
+    position: relative;
+
+    & input,
+    & input:focus,
+    & input:hover {
+        all: unset;
+        position: absolute;
+        inset: 0;
+    }
+
+    & svg {
+        fill: #869198;
+        transition: .8s;
+    }
+
+    &:has(:checked) {
+        background-color: var(--shape-button);
+        border-radius: .3125rem;
+
+        & svg {
+            fill: #59B2FF;
+        }
+    }
+}
+
+ 
