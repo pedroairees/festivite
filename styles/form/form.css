@@ -20,7 +20,8 @@ fieldset .legend-wrapper {
     margin-top: 1.625rem;
 }
 
-input {
+input,
+textarea {
     background-color: var(--input-base);
     border: 1px solid var(--input-stroke);
     border-radius: .5rem;
