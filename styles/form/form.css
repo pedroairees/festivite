@@ -5,7 +5,7 @@ fieldset {
 fieldset .legend-wrapper {
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
     gap: .75rem;
 
     & legend {
