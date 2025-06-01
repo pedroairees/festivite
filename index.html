@@ -26,6 +26,7 @@
 
         <main>
            <h2>Crie seu convite</h2>
+
            <form>
             <fieldset class="about-event">
                 <div class="legend-wrapper">
@@ -99,64 +100,143 @@
                     <legend>Personalização</legend>
                 </div>
 
-                <h3>Cor principal</h3>
+                <section class="main-color">
+                    <h3>Cor principal</h3>
+                    <div class="radio-color-wrapper">
+                        <div class="colors">
+                            <input type="radio" name="color" id="blue" checked>
+                            <label for="blue" class="blue label-color"></label>
+                        </div>
 
-                <div class="radio-color-wrapper">
-                    <div class="colors">
-                        <input type="radio" name="color" id="blue" checked>
-                        <label for="blue" class="blue label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="navy">
+                            <label for="navy" class="navy label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="navy">
-                        <label for="navy" class="navy label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="purple">
+                            <label for="purple" class="purple label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="purple">
-                        <label for="purple" class="purple label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="fushia">
+                            <label for="fushia" class="fushia label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="fushia">
-                        <label for="fushia" class="fushia label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="pink">
+                            <label for="pink" class="pink label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="pink">
-                        <label for="pink" class="pink label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="danger">
+                            <label for="danger" class="danger label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="danger">
-                        <label for="danger" class="danger label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="orange">
+                            <label for="orange" class="orange label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="orange">
-                        <label for="orange" class="orange label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="yellow">
+                            <label for="yellow" class="yellow label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="yellow">
-                        <label for="yellow" class="yellow label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="line">
+                            <label for="line" class="line label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="line">
-                        <label for="line" class="line label-color"></label>
-                    </div>
+                        <div class="colors">
+                            <input type="radio" name="color" id="green">
+                            <label for="green" class="green label-color"></label>
+                        </div>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="green">
-                        <label for="green" class="green label-color"></label>
+                        <div class="colors">
+                            <input type="radio" name="color" id="cyan">
+                            <label for="cyan" class="cyan label-color"></label>
+                        </div>
                     </div>
+                </section>
 
-                    <div class="colors">
-                        <input type="radio" name="color" id="cyan">
-                        <label for="cyan" class="cyan label-color"></label>
+                <section class="event-thema">
+                    <h3>Tema do evento</h3>
+
+                    <div class="themes-options">
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/aniversario.jpg" alt="Imagem de um bolo de aniversário">
+                            <input type="radio" name="theme" id="birthday" checked />
+                            <label for="birthday">Aniversário</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/children.jpg" alt="Imagem de festa infantil">
+                            <input type="radio" name="theme" id="children">
+                            <label for="children">Infantil</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/graduation.jpg" alt="Imagem referindo-se a uma formatura">
+                            <input type="radio" name="theme" id="graduation">
+                            <label for="graduation">Formatura</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/marriage.jpg" alt="Imagem de um casamento">
+                            <input type="radio" name="theme" id="marriage">
+                            <label for="marriage">Casamento</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/baby-tea.jpg" alt="Imagem de um chá de bebê">
+                            <input type="radio" name="theme" id="baby-tea">
+                            <label for="baby-tea">Chá de Bebê</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/bridal-shower.jpg" alt="Imagem de um chá de panelas">
+                            <input type="radio" name="theme" id="bridal-shower">
+                            <label for="baby-tea">Chá de panela</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/carnaval.jpg" alt="Imagem representando o carnaval">
+                            <input type="radio" name="theme" id="carnaval">
+                            <label for="carnaval">Carnaval</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/easter.jpg" alt="Imagem de um ovo personalizado de coelho da pascoa">
+                            <input type="radio" name="theme" id="easter">
+                            <label for="easter">Páscoa</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/sao-joao.jpg" alt="Imagem da festa comemorativa de São João">
+                            <input type="radio" name="theme" id="sao-joao">
+                            <label for="sao-joao">São João</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/halloween.jpg" alt="Imagem de halloween">
+                            <input type="radio" name="theme" id="halloween">
+                            <label for="halloween">Halloween</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/natal.jpg" alt="Imagem relacionada ao Natal">
+                            <input type="radio" name="theme" id="christmas">
+                            <label for="christmas">Natal</label>
+                        </div>
+
+                        <div class="opt-theme">
+                            <img src="./assets/imgs/outro.jpg" alt="Imagem representando outras opções...">
+                            <input type="radio" name="theme" id="other">
+                            <label for="other">Outro</label>
+                        </div>
                     </div>
-                </div>
+                </section>
             </fieldset>
            </form>
         </main>

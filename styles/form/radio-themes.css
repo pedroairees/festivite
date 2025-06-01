@@ -1,0 +1,52 @@
+
+
+.themes-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin-top: 1.25rem;
+}
+
+.opt-theme {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: var(--shape-button);
+    padding: .375rem;
+    border-radius: .5rem;
+    height: 9.375rem;
+    text-align: center;
+    transition: background-color .5s, outline .5s;
+
+    position: relative;
+    & img {
+        width: auto;
+        height: 6rem;
+        object-fit: cover;
+        border-radius: .25rem;
+    }
+
+    & label {
+        font: 400 .875rem var(--font-open-sans);
+        color: var(--text-heading);
+    }
+
+    & input,
+    & input:focus,
+    & input:hover {
+        all: unset;
+        position: absolute;
+        inset: 0;
+    }
+
+    &:hover {
+        background-color: var(--shape-hover);
+        
+    }
+
+    &:has(input[type="radio"]:checked) {
+        outline: 2px solid #59B2FF;
+    }
+
+    
+}
