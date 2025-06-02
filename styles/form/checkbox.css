@@ -1,0 +1,62 @@
+.photo-style {
+    margin-top: 1.75rem;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .checkbox-inner {
+        display: flex;
+        margin-top: 1.75rem;
+        gap: .75rem;
+        position: absolute;
+        align-items: center;
+
+        input[type="checkbox"] {
+            position: relative;
+            appearance: none;
+            width: 4rem;
+            height: 2rem;
+            background-color: var(--input-base);
+            border-radius: 999px;
+            transition: all .5s;
+        }
+
+        & span::after {
+            content: "Escuro";
+            font: 400 1rem var(--font-open-sans);
+            color: var(--text-heading);
+        }
+
+        input:checked[type="checkbox"] {
+            background-color: var(--brand-light);
+            
+        }
+
+        input[type="checkbox"]:before {
+            content: '';
+            position: absolute;
+            width: 1.875rem;
+            height: 1.875rem;
+            border-radius: 50%;
+            background-color: var(--input-stroke);
+            top: 0;
+            left: 0;
+            transition: .5s;
+        }
+
+        #style:checked + span::after {
+            content: "Claro";
+            font: 400 1rem var(--font-open-sans);
+            color: var(--text-heading);
+        }
+
+        
+        input:checked[type="checkbox"]:before {
+            left: 2.1875rem;
+            background-color: var(--text-heading);
+        }
+    }
+}

@@ -12,6 +12,7 @@
     --pink: #FF598B;
     --input-base: #1C1F21;
     --input-stroke: #363B40;
+    --brand-light: #59B2FF;
 
     --text-body: #C8CDD0;
     --text-heading: #F9F9F9;
@@ -20,6 +21,12 @@
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     gap: 1rem;
 }
 
