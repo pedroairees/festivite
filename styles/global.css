@@ -12,6 +12,7 @@
     --pink: #FF598B;
     --input-base: #1C1F21;
     --input-stroke: #363B40;
+    --input-placeholder: #869198;
     --brand-light: #59B2FF;
 
     --text-body: #C8CDD0;
@@ -34,4 +35,8 @@ h3 {
     font: 400 .875rem var(--font-open-sans);
     color: #fff;
     margin-top: 1.75rem
+}
+
+.mg-top {
+    margin-top: 1.75rem;
 }
