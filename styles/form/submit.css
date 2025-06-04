@@ -1,0 +1,29 @@
+.submit-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    .submit-inner {
+        background-color: var(--brand-dark);
+        padding: .75rem 1.25rem;
+        border-radius: .5rem;
+        display: flex;
+        gap: .75rem;
+        align-items: center;
+        justify-content: center;
+        width: 11.0625rem;
+        position: absolute;
+        border: none;
+        cursor: pointer;
+        transition: background-color .5s ease;
+
+        & span {
+            font: 600 1rem var(--font-open-sans);
+            color: var(--text-heading);
+        }
+
+        &:hover {
+            background-color: var(--brand-mid);
+        }
+    }
+}
