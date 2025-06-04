@@ -28,6 +28,12 @@
         transition: .8s;
     }
 
+    &:has(input:focus-visible) {
+        outline: 2px solid var(--brand-mid);
+        outline-offset: 2px;
+        border-radius: .3125rem;
+    }
+
     &:has(:checked) {
         background-color: var(--shape-button);
         border-radius: .3125rem;

@@ -51,6 +51,12 @@
         }
     }
 
+    &:has(input:focus-visible) {
+        outline: 2px solid var(--brand-mid); /* ou outra cor de destaque */
+        outline-offset: 2px;
+        border-radius: .3125rem;
+    }
+
     &:has(:checked) .terms-img::after {
         opacity: 1;
     }
