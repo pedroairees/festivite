@@ -28,6 +28,16 @@ textarea {
     font: 400 1rem var(--font-open-sans);
     padding: .8125rem 1rem;
     color: #fff;
+    outline: none;
+
+    &:focus {
+        outline: 1px solid var(--brand-light);
+        transition: .5s;
+    }
+}
+
+form.submitted input:invalid {
+    outline: 1px solid var(--danger);
 }
 
 label {
